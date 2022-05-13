@@ -1,0 +1,64 @@
+/* common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(76, 30, 240);
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+/* main */
+header nav {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 20px;
+}
+
+header nav a {
+    display: inline-block;
+    font-size: larger;
+    padding: 10px 20px;
+}
+
+header nav a:last-child {
+    border: 1px solid rgb(210, 200, 238);
+    border-radius: 20px;
+}
+
+nav button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.user-info h2 span {
+    color: blue;
+}
+
+.user-info img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.gratitude {
+    text-align: center;
+}
+
+.mail {
+    text-align: right;
+}
